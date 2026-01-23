@@ -187,3 +187,16 @@ var {name,age,Dep,marks}={
 console.log(name);
 console.log(age);
 console.log(Dep);
+
+let arr = [10, 20, 30, 40];
+// for(variable variable_name in array_name)
+// statement
+// }
+
+for(let i in arr){
+    console.log(i,arr[i]);
+}
+
+var obj = { 
+    name:mamm
+}
