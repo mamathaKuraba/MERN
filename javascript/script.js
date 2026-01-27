@@ -104,99 +104,201 @@
 //  else console.log("Fail");
 
 // //switch case
-let day=7;
-switch(day){
-    case 1: {console.log("Monday");
-        break;
-    }
-    case 2: {console.log("Tuesday");
-        break;
-    }
-    case 3: {console.log("Wednesday");
-        break;
-    }
-    case 4: {console.log("Thursday");
-        break;
-    }
-    case 5: {console.log("Friday");
-        break;
-    }
-    case 6: {console.log("Saturday");
-        break;
-    }
-    case 7: {console.log("Sunday");
-        break;
-    }
-    default: {console.log("Invalid Day");
-        break;
-    }
-}
-
-//ternary operator
-i=8;
-let result=(i%2==0)?"Even":"Odd";
-console.log(result);
-let mark=90;
-
-// declare mark1 first
-let mark1 = 80;
-
-// for grade using if-else
-if (mark1 >= 90) console.log("O Grade");
-else if (mark1 >= 80) console.log("A Grade");
-else if (mark1 >= 70) console.log("B Grade");
-else if (mark1 >= 60) console.log("C Grade");
-else console.log("Fail");
-
-// using ternary operator (Even / Odd)
-let result1 = (mark1 % 2 === 0) ? "Even" : "Odd";
-console.log(result1);
-//functions
-function add(){
-    console.log(10+20);
-}
-add();
-add = ()=>{
-    console.log(10+20);
-}
-add();
-
-//Arrow Function
-var add = ()=>{
-        console.log(10+20); 
-    }
-
-//spread operator
-var arr1=[1,2,3];
-var arr2=[4,5,6];
-var arr3=[...arr1,...arr2];
-console.log(arr2);
-
-//Destructuring operator
-var [m1,m2,m3,m4,m5]=[89,90,99,96,87]
-console.log(m1);
-console.log(m2);
-console.log(m3);
-console.log(m4);
-console.log(m5);
-var {name,age,Dep,marks}={ 
-    name:"mammu",
-    age:20,
-    Dep:"CSD"
-}
-console.log(name);
-console.log(age);
-console.log(Dep);
-
-let arr = [10, 20, 30, 40];
-// for(variable variable_name in array_name)
-// statement
+// let day=7;
+// switch(day){
+//     case 1: {console.log("Monday");
+//         break;
+//     }
+//     case 2: {console.log("Tuesday");
+//         break;
+//     }
+//     case 3: {console.log("Wednesday");
+//         break;
+//     }
+//     case 4: {console.log("Thursday");
+//         break;
+//     }
+//     case 5: {console.log("Friday");
+//         break;
+//     }
+//     case 6: {console.log("Saturday");
+//         break;
+//     }
+//     case 7: {console.log("Sunday");
+//         break;
+//     }
+//     default: {console.log("Invalid Day");
+//         break;
+//     }
 // }
 
-for(let i in arr){
-    console.log(i,arr[i]);
-}
+// //ternary operator
+// i=8;
+// let result=(i%2==0)?"Even":"Odd";
+// console.log(result);
+// let mark=90;
 
-var obj = { 
-    name:mamm
+// // declare mark1 first
+// let mark1 = 80;
+
+// // for grade using if-else
+// if (mark1 >= 90) console.log("O Grade");
+// else if (mark1 >= 80) console.log("A Grade");
+// else if (mark1 >= 70) console.log("B Grade");
+// else if (mark1 >= 60) console.log("C Grade");
+// else console.log("Fail");
+
+// // using ternary operator (Even / Odd)
+// let result1 = (mark1 % 2 === 0) ? "Even" : "Odd";
+// console.log(result1);
+// //functions
+// function add(){
+//     console.log(10+20);
+// }
+// add();
+// add = ()=>{
+//     console.log(10+20);
+// }
+// add();
+
+// //Arrow Function
+// var add = ()=>{
+//         console.log(10+20); 
+//     }
+
+// //spread operator
+// var arr1=[1,2,3];
+// var arr2=[4,5,6];
+// var arr3=[...arr1,...arr2];
+// console.log(arr2);
+
+// //Destructuring operator
+// var [m1,m2,m3,m4,m5]=[89,90,99,96,87]
+// console.log(m1);
+// console.log(m2);
+// console.log(m3);
+// console.log(m4);
+// console.log(m5);
+// var {name,age,Dep,marks}={ 
+//     name:"mammu",
+//     age:20,
+//     Dep:"CSD"
+// }
+// console.log(name);
+// console.log(age);
+// console.log(Dep);
+
+
+// let arrr = [10,20,30,40];
+// for(let i in arrr)
+// {
+//     console.log(i,arrr[i]);
+// }
+
+
+// var obj={
+//     name:"vikram",
+//     agee:24
+
+// }
+
+// //for ... in
+
+// for(let i in obj)
+// {
+//     console.log(i,obj[i]);
+    
+// }
+
+// // for..of 
+
+// for(let val of arrr){
+//     console.log(val);
+// }
+
+// let arr = [10,20,30,40];
+// //map
+// var double_arr=arr.map((i)=>(i*2));
+// console.log(double_arr);
+
+// //filter
+// var even = arr.filter((i)=>(i%2===0))
+// console.log(even);
+
+// //reduser
+// var total = arr.reduce((sum,i)=>(sum+i),0);
+// console.log(total);
+
+// var total_sum = arr.map((num)=>num*2).filter((num)=>(num%2===0)).reduce((sum,num)=>(sum+num),0)
+// console.log(total_sum);
+
+// var n = 7;
+// var flag=true;
+// if(n<=1) flag = false;
+// else{
+//     for(let i=2;i<=n/2;i++){
+//         if(n%i===0){
+//             flag=false;
+//             break;
+
+//         }
+//     }
+// }
+// console.log(flag?"prime":"not prime");
+
+// var name="vickey";
+// console.log(`My name is ${name}`);
+ 
+// arr.forEach((value,index)=>{
+//     console.log(index,value)
+// })
+// //callback function
+// var add = (a,b,callback)=>{
+//     var result=a+b;
+//     callback(result);
+// }
+// add(10,20,(result)=>{console.log(result);});
+
+// var main=(callback)=>{
+//     console.log("I am main");
+//     callback()
+// }
+// var demo =()=>{
+//     console.log("I am callback");
+// }
+// main(demo)
+// var promise = new Promise((resolve,reject)=>
+// {
+//     var success = true;
+//     if(success){
+//         resolve("Promise Resolved");
+
+//     }
+//     else{
+//         reject("Promise Rejected");
+//     }
+// })
+// promise.then((res)=>console.log(res))
+// .catch((err)=>console.log(err))
+
+// const getData =()=>{
+//     return fetch('https://jsonplaceholder.typicode.com/posts')
+// }
+// getData().then((res)=>res.json())
+// .then((data)=>console.log(data))
+// .catch(err=>console.log(err))
+
+const getData = async () => {
+   try{
+
+    
+    var res = await fetch("https://jsonplaceholder.typicode.com/posts")
+    var data = await res.json();
+    console.log(data);
+ 
+  }catch (err) {
+    console.log(err);
 }
+}
+getData()
+
