@@ -13,6 +13,7 @@ import UseEffect from "./Hooks/UseEffect";
 import UseEffectApi from "./Hooks/UseEffectApi";
 import UseRef from "./Hooks/UseRef";
 import Hook from "./Hooks/Hook";
+import UseReducer from './HOOKS/UseReducer'
 
 import Login from "./Auth/login";
 import Signup from "./Auth/Signup";
