@@ -1,11 +1,10 @@
-import React from 'react'
+import { useContext } from "react";
+import ThemeContext from "../context/ThemeContext";
 
-const Services = () => {
-  return (
-    <div>
-      Services
-    </div>
-  )
-}
+const Service = () => {
+  const theme = useContext(ThemeContext);
 
-export default Services
+  return <div>Current theme: {theme}</div>;
+};
+
+export default Service;
