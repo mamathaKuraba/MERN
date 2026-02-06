@@ -1,0 +1,23 @@
+.Navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+ul{
+    list-style: none;
+    background-color: chocolate;
+    padding: 10px;
+
+}
+li{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}\.link:hover{
+    color: white
+}
